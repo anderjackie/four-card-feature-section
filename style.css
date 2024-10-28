@@ -23,6 +23,7 @@
   --blue: hsl(212, 86%, 64%);
   --very-dark-blue: hsl(234, 12%, 34%);
   --grayish-blue: hsl(229, 6%, 66%);
+  --transparent-grayish-blue: hsl(229, 6%, 66%, 50%);
   --very-light-gray: hsl(0, 0%, 98%);
   --extra-light: 200;
   --regular: 400;
@@ -30,6 +31,47 @@
 }
 
 body {
+  display: grid;
+  place-items: center;
   font-family: Poppins;
   font-weight: var(--regular);
+  font-size: 15px;
+  background-color: var(--very-light-gray);
+}
+
+main {
+  display: grid;
+  row-gap: 30px;
+  padding: 2rem;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.card {
+  display: grid;
+  row-gap: .3rem;
+  padding: 1.5rem;
+  font-weight: var(--extra-light);
+  border-radius: .5rem;
+  box-shadow: 
+    0 -8px 0 -5px var(--cyan),
+    0 1px 20px var(--transparent-grayish-blue);
+
+  h3 {
+    font-weight: var(--semibold);
+  }
+
+  p {
+    color: var(--grayish-blue);
+    font-size: .8rem;
+    font-weight: var(--semibold);
+  }
+
+  img {
+    justify-self: end;
+  }
 }
