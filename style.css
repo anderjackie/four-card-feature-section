@@ -73,6 +73,7 @@ p {
   margin-top: 1rem;
   color: var(--grayish-blue);
   text-align: center;
+  font-size: .9rem;
 }
 
 .card-container {
