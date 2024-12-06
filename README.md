@@ -17,12 +17,13 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![desktop](./screenshots/desktop.jpeg)
+![mobile](./screenshots/mobile.jpeg)
 
 ### Links
 
-- [Solution URL](https://github.com/anderjackie/four-card-feature-section/)
-- [Live Site URL](http://htmlpreview.github.io/?https://github.com/anderjackie/four-card-feature-section/index.html)
+- Solution URL: [code](https://github.com/anderjackie/four-card-feature-section)
+- Live Site URL: [live site](https://htmlpreview.github.io/?https://github.com/anderjackie/four-card-feature-section/blob/main/index.html)
 
 ## My process
 
@@ -30,15 +31,17 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
+- Started to think more about grid design which is super powerful. My first line of thought is to use flexbox but I jpo that changes in the future to a more balanced approach.
+- The box-shadow was a challenge but I liked it. I can do a lot of stuff with it.
+
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+- Get better with grids
 
 ## Author
 
